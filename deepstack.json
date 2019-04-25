@@ -1,0 +1,20 @@
+{
+    "deepstack": {
+        "version": "1.0.6",
+        "local_location": "/custom_components/deepstack/__init__.py",
+        "remote_location": "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/__init__.py",
+        "visit_repo": "https://github.com/elad-bar/ha-deepstack",
+        "changelog": "https://github.com/elad-bar/ha-deepstack/releases/latest",
+        "resources": [
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/const.py",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/deepstack.py",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/deepstack_api.py",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/face_classify_entity.py",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/services.yaml",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/image_processing.py",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/object_classify_entity.py",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/services.yaml",
+            "https://raw.githubusercontent.com/elad-bar/ha-deepstack/master/custom_components/deepstack/manifest.json"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+change_confidence_level:
+  description: Change confidence level
+  fields:
+    confidence:
+      description: "Float, between 1, 100 - Sets the confidence level"
+
+register_face:
+  description: Register face, will display a message with registered face and updated available faces
+  fields:
+    name:
+      description: "String - Name of the person"
+    file_path:
+      description: "String - File path of the image"
+
+list_faces:
+  description: Display a message with available faces
+
+delete_face:
+  description: Delete face, will display a message with deleted face and updated available faces
+  fields:
+    name:
+      description: "String - Name of the person"
+
+display_response_time:
+  description: Enables / Disables writing the response time into the image processors entity as attribute
+  fields:
+    enabled:
+      description: "True / False - whether it should be enabled or not"
+
+change_detected_first:
+  description: Enables / Disables detect before recognized for face recognition
+  fields:
+    enabled:
+      description: "True / False - whether it should be enabled or not"

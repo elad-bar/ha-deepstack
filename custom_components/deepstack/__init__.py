@@ -5,6 +5,9 @@ https://home-assistant.io/components/edgeos/
 """
 from .const import *
 from .deep_stack import (DeepStack)
+from homeassistant.components.camera import DOMAIN as CAMERA_DOMAIN
+
+DEPENDENCIES = [CAMERA_DOMAIN]
 
 
 def setup(hass, config):

@@ -2,7 +2,7 @@
     "domain": "deepstack",
     "name": "Integration to DeepStack API",
     "documentation": "https://github.com/elad-bar/ha-deepstack/blob/master/README.md",
-    "dependencies": [],
+    "dependencies": ["camera"],
     "codeowners": ["@elad-bar"],
     "requirements": []
   }
